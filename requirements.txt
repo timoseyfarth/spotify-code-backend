@@ -9,3 +9,6 @@ requests~=2.32.4
 fpdf2~=2.8.3
 webcolors~=24.11.1
 scikit-learn~=1.7.1
+uvicorn~=0.35.0
+dotenv~=0.9.9
+prometheus-fastapi-instrumentator~=7.0.0
