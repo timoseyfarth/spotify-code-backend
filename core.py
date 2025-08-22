@@ -43,6 +43,8 @@ SPOTIFY_JOB_ID_PATTERN = re.compile(r'^(track|album|episode|playlist)-[a-zA-Z0-9
 logger = logging.getLogger("spotify_code_api")
 logger.setLevel(logging.INFO)
 
+Path("logs").mkdir(parents=True, exist_ok=True)
+
 handler = RotatingFileHandler(
     "logs/spotify_api.log",
     maxBytes=5 * 1024 * 1024,
