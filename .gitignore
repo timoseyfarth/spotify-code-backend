@@ -162,5 +162,3 @@ jobs/
 # DB folder
 db/
 
-# For now core file
-core.py
