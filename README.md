@@ -4,6 +4,12 @@
 [![](https://img.shields.io/badge/GitHub-Frontend-blue)](https://github.com/timoseyfarth/spotify-code-frontend)
 [![](https://img.shields.io/badge/GitHub-Main%20Repo-white)](https://github.com/timoseyfarth/spotify-code-project)
 
+Turn your favorite Spotify tracks, albums, or playlists into a unique, scannable 3D model! This project combines a web app with a parametric 3D modeling on MakerWorld to create personalized Spotify Tags.
+
+[MakerWorld 3D Model Link](https://makerworld.com/en/models/1660269-customizable-spotify-keychain-tag) • [Live Code Generator Website](https://spotify-code.seyfarth.dev/)
+
+---
+
 This repository contains the backend server for the 3D Printable Spotify Code Generator. It's a Python application that takes a Spotify URL, fetches the code, processes the image, and returns the Base-8 encoded strings.
 
 ---
@@ -106,4 +112,5 @@ uvicorn core:app --reload
 ## 👨‍💻 A Note from the Creator
 
 This project was a fantastic learning experience. It was my first time trying to setup a API from scratch. Therefore it may not be perfect. It was a personal challenge to handle external services like the Spotify API, and dive into the logic of image processing and data encoding. I'm proud of how it turned out and hope you enjoy using it!
+
 
